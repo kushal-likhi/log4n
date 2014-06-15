@@ -1,0 +1,51 @@
+{
+    "name": "Log4n",
+    "description": "Powerful, advanced but simple to use logger for NodeJS",
+    "version": "0.1.0",
+    "author": {
+        "name": "Kushal Likhi",
+        "email": "kushal.likhi@gmail.com"
+    },
+    "contributors": [
+        {
+            "name": "Kushal Likhi",
+            "email": "kushal.likhi@gmail.com"
+        }
+    ],
+    "dependencies": {
+        "colors": "*"
+    },
+    "devDependencies": {
+        "mocha": "~1.15.1"
+    },
+    "keywords": [
+        "logger",
+        "log",
+        "log4n",
+        "enterprise",
+        "remote",
+        "appenders",
+        "colored",
+        "api",
+        "formatted",
+        "debug",
+        "timing"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/kushal-likhi/log4n"
+    },
+    "main": "./lib/main",
+    "scripts": {
+        "prepublish": "npm prune"
+    },
+    "engines": {
+        "node": ">= 0.8.0"
+    },
+    "readme": "",
+    "readmeFilename": "README.md",
+    "bugs": {
+        "url": "https://github.com/kushal-likhi/log4n/issues"
+    },
+    "homepage": "https://github.com/kushal-likhi/log4n"
+}
