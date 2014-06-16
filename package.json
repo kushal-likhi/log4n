@@ -13,7 +13,8 @@
         }
     ],
     "dependencies": {
-        "colors": "*"
+        "colors": "*",
+        "extend": "1.2.1"
     },
     "devDependencies": {
         "mocha": "~1.15.1"
